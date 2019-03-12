@@ -65,7 +65,7 @@ function stop() {
 }
 function resultGuy() {
     for (var i = 0; i < theQuestions.length; i++) {
-        var answer;
+        var answer = $('input[name=jawn]:checked').attr('id')
         // I can't get answer to equal the checked radio button
         if (answer === theQuestions[i].correct) {
             rightAnswers++;
