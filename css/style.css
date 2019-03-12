@@ -1,0 +1,49 @@
+html {
+    background-image: url("../images/dots.jpg");
+    background-repeat: repeat;
+    height: 100%;
+}
+h1 {
+    background-color: #a50b20;
+    color: white;
+    font-size: 40px;
+    padding: 25px;
+    z-index: 2;
+    font-weight: bolder;
+    text-align: center;
+    
+    clear: both;
+    margin: 0 auto;
+}
+
+#quiz, #time, #total {
+    clear: both;
+    width: 960px;
+    background-color: #b60e0e;
+    border: solid;
+    border-width: 1px;
+    border-color: #070404;
+    padding: 30px;
+    margin: 0 auto;
+}
+p {
+    color: #3b0303;
+    background-color: #ffffff;
+    padding: 10px;
+    line-height: 2;
+    font-size: 40;
+    font-weight: bolder;
+}
+#start {
+    font-weight: bolder;
+    margin: 20px;
+    height: 75px;
+    border-bottom: solid;
+    border-bottom-color: #cccccc;
+    font-size: 50px;  
+    color: #6c50d3;
+    max-width: 900px;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+}
