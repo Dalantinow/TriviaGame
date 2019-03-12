@@ -67,14 +67,14 @@ function resultGuy() {
     for (var i = 0; i < theQuestions.length; i++) {
         var answer;
         // I can't get answer to equal the checked radio button
-        if (answer === theQuestions[i].correct){
+        if (answer === theQuestions[i].correct) {
             rightAnswers++;
         }
-        else if (answer !== theQuestions[i].correct){
+        else if (answer !== theQuestions[i].correct) {
             wrongAnswers++;
         }
     }
-        $("#total").html("<p>Correct Answers: " + rightAnswers + "</p>" + "<p>Incorrect Answers: " + wrongAnswers + "</p>");
+    $("#total").html("<p>Correct Answers: " + rightAnswers + "</p>" + "<p>Incorrect Answers: " + wrongAnswers + "</p>");
 
 }
 
